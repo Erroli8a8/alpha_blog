@@ -1,6 +1,15 @@
+<head>
+<style>
+.button {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+</style>
+</head>
+
 <h1>This is my home page</h1>
 
-<%= link_to "About", about_path %>
-<p></p>
-<%= link_to "Articles New", new_path %>
+<button class="button"> <%= link_to "About", about_path %> </button> | 
+<buttton class="button3"> <%= link_to "Alpha blog", articles_path %> </buttton>
 <p></p>
