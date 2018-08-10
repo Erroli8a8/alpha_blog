@@ -5,11 +5,16 @@
 .button3 {background-color: #f44336;} /* Red */ 
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
 .button5 {background-color: #555555;} /* Black */
+
+.one:link {color:#ff0000;}
+.one:visited {color:#0000ff;}
+.one:hover {color:#aaaaaa;}
+
 </style>
 </head>
 
 <h1>This is my home page</h1>
 
-<button class="button"> <%= link_to "About", about_path %> </button> | 
-<buttton class="button3"> <%= link_to "Alpha blog", articles_path %> </buttton>
+<%= link_to "About", about_path %> | 
+<buttton class="button4"> <%= link_to "Alpha blog", articles_path %> </buttton>
 <p></p>
